@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>tanikopi</title>
+    <link rel="icon" href="D:\College Projects\Researchs and Competitions\Competitions\Progress\EYSA Indonesia 2019\tanikopi3\img\tanikopi_logo.png"/>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div id="dismiss">
+                <i class="fas fa-arrow-left"></i>
+            </div>
+
+            <div class="sidebar-header">
+                <h3>Menu</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Maps</a>
+                    <ul class="list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="https://itenas-gd.maps.arcgis.com/apps/opsdashboard/index.html#/d7241ea966c34d1b83704a8c1bd67b94">Farm Management Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="https://itenas-gd.maps.arcgis.com/apps/webappviewer/index.html?id=f58b79cfa70043819460148a701f54de">Farm Infrastructure Viewer</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Mobile Apps</a>
+                </li>
+                <li>
+                    <a href="#">Manual</a>
+                    <ul class="list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">For Farmer</a>
+                        </li>
+                        <li>
+                            <a href="#">For Visitor</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <button class="button" id="sidebarCollapse">
+                        <font color="#3a8656">Menu</font>
+                    </button>
+                </div>
+            </nav>
+
+            <p style="text-align:center;"><img src="D:\College Projects\Researchs and Competitions\Competitions\Progress\EYSA Indonesia 2019\tanikopi3\img\tanikopi_logo.png" class="responsive"></p>
+            <p align="center">"geospatially based platform for a better coffee farm management"</p>
+            <h6>&nbsp;</h6>
+            <p align="center">Let's doing a survey as:</p>
+            <div style="text-align:center;">
+              <a href="https://survey123.arcgis.com/share/bd5d2ab31ac2400bb244c4ebf05cae9f">
+                <p><img src="D:\College Projects\Researchs and Competitions\Competitions\Progress\EYSA Indonesia 2019\tanikopi3\img\tanikopi_farmer.png" class="responsive" style="display:inline-block;"></p>
+              </a>
+              <a href="https://survey123.arcgis.com/share/06483221d090473a9dc30eeb7d2a9a63">
+                <p><img src="D:\College Projects\Researchs and Competitions\Competitions\Progress\EYSA Indonesia 2019\tanikopi3\img\tanikopi_visitor.png" class="responsive" style="display:inline-block;"></p>
+              </a>
+            </div>
+            <p style="font-size:12px" align="center">*P.S.: for Farmer survey required registration first</p>
+          </div>
+
+
+    <div class="overlay"></div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#dismiss, .overlay').on('click', function () {
+                $('#sidebar').removeClass('active');
+                $('.overlay').removeClass('active');
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').addClass('active');
+                $('.overlay').addClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+</body>
+
+</html>
