@@ -205,18 +205,6 @@ a.article:hover {
     width:100%;
 }
 
-body {
-  background: #232840;
-  color: #fff;
-}
-
-button {
-  background: transparent;
-  border: none;
-  color: #fff;
-  font-size: 30px;
-}
-
 :focus {outline:none;}
 ::-moz-focus-inner {border:0;}
 
